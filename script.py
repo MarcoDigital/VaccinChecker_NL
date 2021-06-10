@@ -11,8 +11,8 @@ wachtwoord = str(input("Wat is je wachtwoord? "))
 url = "https://www.rijksoverheid.nl/onderwerpen/coronavirus-vaccinatie/prikuitnodiging-en-afspraak"
 interval = 30
 
-jaar1 = str("1990")
-jaar2 = str("1991")
+jaar1 = str("1991")
+jaar2 = str("1992")
 jaar3 = str("2000")
 
 
