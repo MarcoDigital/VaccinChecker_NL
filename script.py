@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import sendemail
+import sys
 
 email = str(input("Wat is je Gmail account? "))
 wachtwoord = str(input("Wat is je wachtwoord? "))
@@ -34,6 +35,7 @@ def coronachecker():
 def notify():
     try:
         sendemail.emailuser(email, wachtwoord)
+        sys.exit()
     except:
         print("Je email of wachtwoord is verkeerd ingesteld. Start het programma opnieuw met correcte gegevens.")
 
